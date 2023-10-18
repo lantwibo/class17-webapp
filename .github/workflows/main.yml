@@ -10,5 +10,5 @@ jobs:
     - name: Say Hello
       run: echo "Hello World"
 
-    -name: wait
-     run: sleep 30
+    - name: wait
+      run: sleep 30
