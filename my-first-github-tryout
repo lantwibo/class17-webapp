@@ -3,12 +3,12 @@ on: [push]
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
 
     steps:
     - name: Say Hello
-      run: echo "Hello World"
+      run: echo "Hello, World"
 
     -name: wait
      run: sleep 30
